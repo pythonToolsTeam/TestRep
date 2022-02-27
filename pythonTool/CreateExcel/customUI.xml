@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<ribbon startFromScratch="false">
+<tabs>
+<tab id="rxtabCustom" label="Audit" insertBeforeMso="TabHome">
+<group id="mygroupB" label="Macro Func">
+<button id="ButtonID" imageMso="HappyFace" size="large" label="Func" onAction="OwnFunc"/>
+</group>
+</tab>
+</tabs>
+</ribbon>
+</customUI>
